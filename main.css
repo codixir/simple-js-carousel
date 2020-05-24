@@ -1,0 +1,22 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.car-content {
+  display: flex;
+  justify-content: center;
+  min-height: 200px;  
+  width: 100%;
+  align-items: center;
+}
+
+.car-btn {
+  height: 30px;
+}
+
+.car-btn-left {
+  justify-content: left;
+}
