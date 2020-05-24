@@ -1,11 +1,12 @@
 const content = [
-	{ id: 1, body: 'one'},
+  { id: 1, body: 'one'},
   { id: 2, body: 'two'},
-	{ id: 3, body: 'three'},
+  { id: 3, body: 'three'}
 ];
 
 const carContent = document.querySelector('.car-content');
 const initContent = content[0];
+
 let currentContent = initContent;
 
 carContent.innerHTML = `<div>${content[0].body}</div>`;
